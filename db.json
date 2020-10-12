@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": "16000",
+      "is_ready": true,
+      "gambar": "sate-ayam.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Gpreng",
+      "harga": "15000",
+      "is_ready": true,
+      "gambar": "nasi-goreng.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Nasi Rames",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "nasi-rames.jpeg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Martabak",
+      "harga": "16000",
+      "is_ready": true,
+      "gambar": "martabak.jpeg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Mie Ayam",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "mie-ayam.jpeg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Ikan Patin",
+      "harga": "11000",
+      "is_ready": true,
+      "gambar": "ikan-patin.jpeg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Jus Mangga",
+      "harga": "11000",
+      "is_ready": true,
+      "gambar": "jus-mangga.jpeg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Kopi Hitam",
+      "harga": "7000",
+      "is_ready": true,
+      "gambar": "kopi-hitam.jpeg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "pizza daging",
+      "harga": "78000",
+      "is_ready": true,
+      "gambar": "pizza-daging.jpeg"
+    }
+  ],
+  "best-products": [
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Kopi Hitam",
+      "harga": "7000",
+      "is_ready": true,
+      "gambar": "kopi-hitam.jpeg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "pizza daging",
+      "harga": "78000",
+      "is_ready": true,
+      "gambar": "pizza-daging.jpeg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Ikan Patin",
+      "harga": "11000",
+      "is_ready": true,
+      "gambar": "ikan-patin.jpeg"
+    }
+  ],
+  "keranjang": [],
+  "pesanan": [
+    {
+      "nama": "ridho",
+      "noMeja": "12",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Martabak",
+            "harga": "16000",
+            "is_ready": true,
+            "gambar": "martabak.jpeg"
+          },
+          "id": 4
+        },
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Jus Mangga",
+            "harga": "11000",
+            "is_ready": true,
+            "gambar": "jus-mangga.jpeg"
+          },
+          "id": 5
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Nasi Gpreng",
+            "harga": "15000",
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpeg"
+          },
+          "id": 6
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "products": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Kopi Hitam",
+            "harga": "7000",
+            "is_ready": true,
+            "gambar": "kopi-hitam.jpeg"
+          },
+          "id": 7
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "sfhh",
+      "noMeja": "12",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "ketarangan": "qwq",
+          "products": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Kopi Hitam",
+            "harga": "7000",
+            "is_ready": true,
+            "gambar": "kopi-hitam.jpeg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "12",
+          "ketarangan": "qw",
+          "products": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Mie Ayam",
+            "harga": "10000",
+            "is_ready": true,
+            "gambar": "mie-ayam.jpeg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
